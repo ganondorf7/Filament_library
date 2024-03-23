@@ -4,7 +4,7 @@
 }
 
 main{
-    width: 100%;
+    max-width: 100%;
 }
 
 ul{
@@ -29,7 +29,7 @@ li{
 
 .vid_showcase{
     top: 0;
-    right: -6%;
+    right: 6%;
     border-radius: 20px;
     position: absolute;
     display: block;
@@ -51,13 +51,13 @@ video{
 
 .table{
     row-gap: 1.3rem;
-    top: 12%;
+    top: 12.4%;
     left: 5.6%;
     position: absolute;
     grid-template-rows: 17% 17% 17% 17% 17%;
     display: grid;
-    width: 65%;
-    height: 60%;
+    width: 560px;
+    height: 560px;
 }
 
 .row-1{
