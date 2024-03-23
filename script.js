@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Loop through each item
     items.forEach(function(item) {
         // Get references to elements within the current item
-        var h3Element = item.querySelector(".h3");
+        var h3Element = item.querySelector(".boat");
         var videoElement = item.querySelector(".video");
 
         // Initially hide the video
@@ -26,4 +26,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-

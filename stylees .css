@@ -20,25 +20,75 @@ li{
 
 .tier_list{
     top: 10%;
-    left: 54%;
-    right: 0;
+    left: 0.4%;
+    right: 54%;
     position: absolute;
-    width: 40%;
-    height: 45%;
+    width: 65%;
+    min-width: 600px;
 }
 
 .vid_showcase{
+    top: 0;
+    right: -6%;
     border-radius: 20px;
     position: absolute;
-    top: 60%;
-    left: 60%;
     display: block;
     background-color: black;
-    height: 35%;
 }
 
 video{
+    height: 20rem;
+    position: absolute;
     display: none;
     border-radius: 20px;
+}
+
+.boat{
+    opacity: 0.3;
+    width: 125%;
     height: 100%;
+}
+
+.table{
+    row-gap: 1.3rem;
+    top: 12%;
+    left: 5.6%;
+    position: absolute;
+    grid-template-rows: 17% 17% 17% 17% 17%;
+    display: grid;
+    width: 65%;
+    height: 60%;
+}
+
+.row-1{
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+}
+
+.row-4 {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+}
+
+.row-5 {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+}
+
+.item{
+    width: 4rem;
+}
+
+.h3{
+    display: none;
 }
